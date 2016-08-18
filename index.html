@@ -5,18 +5,17 @@
 	<title>DAE /FOSS/</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script>
-		function replace() {
+		window.addEventListener('input', function (e) {
 			document.getElementsByName("insert").forEach(function(value) {
 				value.innerHTML = document.getElementById("userInput").value;
-			});
-		}
+			})
+		}, false);
 	</script>
 </head>
 <body>
 	<header id="header">
 		<h1>GNU/Linux Copypasta</h1>
 		<input type="text" id="userInput" value="Linux"></input>
-		<button onclick="replace();">Press to replace text</button>
 	</header>
 	<main>
 		<p>
