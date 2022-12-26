@@ -10,20 +10,26 @@
 				value.innerHTML = document.getElementById("userInput").value;
 			})
 		}, false);
+		window.addEventListener('input', function (e) {
+			document.getElementsByName("insert2").forEach(function(value) {
+				value.innerHTML = document.getElementById("userInput2").value;
+			})
+		}, false);
 	</script>
 </head>
 <body>
 	<header id="header">
 		<h1>GNU/Linux Copypasta</h1>
+		<input type="text" id="userInput2" value="GNU"></input>
 		<input type="text" id="userInput" value="Linux"></input>
 	</header>
 	<main>
 		<p>
-			<a>I'd just like to interject for a moment. What you're refering to as </a><b name="insert">Linux</b><a>, is in fact, GNU/</a><b name="insert">Linux</b><a>, or as I've recently taken to calling it, GNU plus </a><b name="insert">Linux</b><a>. </a><b name="insert">Linux</b><a> is not an operating system unto itself, but rather another free component of a fully functioning GNU system made useful by the GNU corelibs, shell utilities and vital system components comprising a full OS as defined by POSIX.</p>
+			<a>I'd just like to interject for a moment. What you're referring to as </a><b name="insert">Linux</b><a>, is in fact, </a><b name="insert2">GNU</b><a>/</a><b name="insert">Linux</b><a>, or as I've recently taken to calling it, </a><b name="insert2">GNU</b><a> plus </a><b name="insert">Linux</b><a>. </a><b name="insert">Linux</b><a> is not an operating system unto itself, but rather another free component of a fully functioning </a><b name="insert2">GNU</b><a> system made useful by the </a><b name="insert2">GNU</b><a> corelibs, shell utilities and vital system components comprising a full OS as defined by POSIX.</p>
 		<p>
-			<a>Many computer users run a modified version of the GNU system every day, without realizing it. Through a peculiar turn of events, the version of GNU which is widely used today is often called </a><b name="insert">Linux</b><a>, and many of its users are not aware that it is basically the GNU system, developed by the GNU Project.</a></p>
+			<a>Many computer users run a modified version of the </a><b name="insert2">GNU</b><a> system every day, without realizing it. Through a peculiar turn of events, the version of </a><b name="insert2">GNU</b><a> which is widely used today is often called </a><b name="insert">Linux</b><a>, and many of its users are not aware that it is basically the </a><b name="insert2">GNU</b><a> system, developed by the </a><b name="insert2">GNU</b><a> Project.</a></p>
 		<p>
-			<a>There really is a </a><b name="insert">Linux</b><a>, and these people are using it, but it is just a part of the system they use. </a><b name="insert">Linux</b><a> is the kernel: the program in the system that allocates the machine's resources to the other programs that you run. The kernel is an essential part of an operating system, but useless by itself; it can only function in the context of a complete operating system. </a><b name="insert">Linux</b><a> is normally used in combination with the GNU operating system: the whole system is basically GNU with </a><b name="insert">Linux</b><a> added, or GNU/</a><b name="insert">Linux</b><a>. All the so-called </a><b name="insert">Linux</b><a> distributions are really distributions of GNU/</a><b name="insert">Linux</b><a>!</a>
+			<a>There really is a </a><b name="insert">Linux</b><a>, and these people are using it, but it is just a part of the system they use. </a><b name="insert">Linux</b><a> is the kernel: the program in the system that allocates the machine's resources to the other programs that you run. The kernel is an essential part of an operating system, but useless by itself; it can only function in the context of a complete operating system. </a><b name="insert">Linux</b><a> is normally used in combination with the </a><b name="insert2">GNU</b><a> operating system: the whole system is basically </a><b name="insert2">GNU</b><a> with </a><b name="insert">Linux</b><a> added, or </a><b name="insert2">GNU</b><a>/</a><b name="insert">Linux</b><a>. All the so-called </a><b name="insert">Linux</b><a> distributions are really distributions of </a><b name="insert2">GNU</b><a>/</a><b name="insert">Linux</b><a>!</a>
 		</p>
 	</main>
 </body>
